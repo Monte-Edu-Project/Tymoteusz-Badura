@@ -1,0 +1,29 @@
+.secondary_button {
+    background-color:#A2DFFF;
+    border-radius: 10%;
+    border: 2px solid #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_button {
+    background-color:#FFEF85;
+    border-radius: 10%;
+    color: #333333;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 31px;
+    font: bold;
+    border: 2px solid #333333;
+  }
+  .secondary_button_content{
+    font-size: 29px;
+    font-family: 'Cabin', sans-serif;
+    color: #333333;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
