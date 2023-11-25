@@ -1,29 +1,121 @@
 .secondary_button {
-    background-color:#A2DFFF;
-    border-radius: 10%;
-    border: 2px solid #333333;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .main_button {
-    background-color:#FFEF85;
-    border-radius: 10%;
-    color: #333333;
-    padding: 15px 32px;
-    text-align: center;
-    display: block;
-    font-size: 31px;
-    font: bold;
-    border: 2px solid #333333;
-  }
-  .secondary_button_content{
-    font-size: 29px;
-    font-family: 'Cabin', sans-serif;
-    color: #333333;
-  }
-  .buttons{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  background-color:#A2DFFF;
+  border-radius: 10px;
+  border: 2px solid #333333;
+  justify-content: space-between;
+  width: 300px;
+  height: 75px;
+  display: flex;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 110px;
+}
+.main_button {
+  background-color:#FFEF85;
+  border-radius: 10px;
+  border: 2px solid #333333;
+  width: 280px;
+  height: 140px;
+  display: flex;
+  margin: auto;
+  margin-block: 60px;
+}
+.secondary_button_text{
+  font-family: 'Cabin', sans-serif;
+  width: 165px;
+  height: 42px;
+  font-size: 29px;
+  margin-top: 16.5px;
+}
+.main_button_text{
+  font-family: 'Cabin', sans-serif;
+  width: 200px;
+  height: 93.333px;
+  font-size: 31px;
+  margin: auto;
+}
+#account_icon{
+  margin-top: 2.25px;
+  margin-left: 25px;
+}
+.display_box{
+  background-color:#FFEF85;
+  border-radius: 10px;
+  border: 2px solid #333333;
+  width: 300px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+.header_text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  width: 230px;
+  height: 50px;
+  font-size: 31px;
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  position: sticky;
+}
+.separating_line{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: 2px;
+  background-color: #333333;
+  margin: auto;
+  margin-bottom: 25px;
+  position: sticky;
+}
+.closing_button{
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  position: sticky;
+}
+.box_description{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  width: 225px;
+  height: 30px;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.search_label{
+  display: flex;
+  width: 90px;
+  height: 25px;
+  margin: auto;
+  justify-content: center;
+  border-color: #333333;
+}
+#spyglass_icon{
+  margin-top: 2.5px;
+}
+h1{
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+h2{
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+h3{
+  margin: auto;
+  font-size: 31px;
+}
