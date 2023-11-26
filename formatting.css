@@ -1,3 +1,23 @@
+h1{
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+h2{
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+h3{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
 .secondary_button {
   background-color:#A2DFFF;
   border-radius: 10px;
@@ -34,10 +54,6 @@
   font-size: 31px;
   margin: auto;
 }
-#account_icon{
-  margin-top: 2.25px;
-  margin-left: 25px;
-}
 .display_box{
   background-color:#FFEF85;
   border-radius: 10px;
@@ -59,7 +75,6 @@
   margin: auto;
   margin-bottom: 25px;
   text-align: center;
-  position: sticky;
 }
 .separating_line{
   display: flex;
@@ -69,8 +84,7 @@
   height: 2px;
   background-color: #333333;
   margin: auto;
-  margin-bottom: 25px;
-  position: sticky;
+  margin-bottom: 30px;
 }
 .closing_button{
   color: #FFFFFF;
@@ -78,7 +92,6 @@
   border-radius: 10px;
   width: 50px;
   height: 50px;
-  position: sticky;
 }
 .box_description{
   font-family: 'Inter', sans-serif;
@@ -87,7 +100,7 @@
   height: 30px;
   font-size: 24px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 25px;
   text-align: center;
 }
 .search_label{
@@ -98,24 +111,53 @@
   justify-content: center;
   border-color: #333333;
 }
-#spyglass_icon{
-  margin-top: 2.5px;
-}
-h1{
-  color: #333333;
+.checkbox_label{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
+  flex-direction: row;
+  margin-top: 5px;
 }
-h2{
-  color: #333333;
+.row_group{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-}
-h3{
+  flex-direction: row;
+  justify-content: space-between;
   margin: auto;
-  font-size: 31px;
+}
+.column_group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+}
+.small_box{
+  background-color: #A2DFFF;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+  width: 90px;
+  height: 35px;
+  margin: auto;
+  margin-top: 15px;
+  justify-content: left;
+}
+.small_box_text{
+  color: #333333;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  width: 50px;
+  height: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  margin-left: 5px;
+}
+.X{
+  margin: auto;
+  font-size: 29px;
+  font-weight: 400;
+  margin: auto;
 }
