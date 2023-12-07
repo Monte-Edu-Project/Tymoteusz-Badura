@@ -8,16 +8,17 @@
         <link rel="stylesheet" href="styles/formatting.css">
     </head>
     <body>
+        <script src="scripts/script.js"></script>
         <header>
             <button class="secondary-button button">
                 <img src="images/account-icon.svg" alt="" width="66" height="66" id="account-icon"/>
                 <plain class="secondary-text text">Preferencje</plain>
             </button>
         </header>
-        <button class="main-button button">
+        <button class="main-button button" id="lessonPlanButton" onclick="lessonDirect()">
             <h1 class="main-text text">Plan Lekcji</h1>
          </button>
-        <button class="main-button button">
+        <button class="main-button button" id="teacherPlanButton">
             <h1 class="main-text text">Plan Nauczycieli</h1>
         </button>
     </body>
