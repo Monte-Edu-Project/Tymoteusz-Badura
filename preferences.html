@@ -10,8 +10,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">    
     </head>
     <body>
+        <script src="scripts/script.js"></script>
         <header>
-            <button class="closing-button">
+            <button class="closing-button" id="closeButton" onclick="indexDirect()" onmousedown="buttonHighlight(id, closeButtonHighlightColor)" onmouseup="buttonReset(id, closeButtonColor)" onmouseleave="buttonReset(id, closeButtonColor)">
                 <h3 class="X">X</h3>
             </button>
             <h2 class="header-text text">Preferencje</h1>

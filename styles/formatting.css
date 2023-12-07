@@ -14,7 +14,7 @@
 }
 
 .secondary-button {
-  background-color:#A2DFFF;
+  background-color: #A2DFFF;
   justify-content: space-between;
   width: 300px;
   height: 75px;
@@ -22,8 +22,8 @@
   margin-bottom: 110px;
 }
 
-.main-button {
-  background-color:#FFEF85;
+.mainButton {
+  background-color: #FFEF85;
   width: 280px;
   height: 140px;
   margin-block: 60px;
@@ -47,7 +47,7 @@
 }
 
 .display-box{
-  background-color:#FFEF85;
+  background-color: #FFEF85;
   border-radius: 10px;
   border: 2px solid #333333;
   width: 300px;
