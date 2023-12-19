@@ -1,2 +1,25 @@
-<h1>Hello!</h1>
-Cokolwiek
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>starting-screen</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap" rel="stylesheet">     
+        <link rel="stylesheet" href="styles/formatting.css">
+    </head>
+    <body>
+        <script src="scripts/script.js"></script>
+        <header>
+            <button class="secondary-button button" id = "preferencesButton" onclick="preferenceDirect()" onmousedown="buttonHighlight(id, secondaryButtonHighlightColor)" onmouseup="buttonReset(id, secondaryButtonColor)" onmouseleave="buttonReset(id, secondaryButtonColor)">
+                <img src="images/account-icon.svg" alt="" width="66" height="66" id="account-icon"/>
+                <plain class="secondary-text text">Preferencje</plain>
+            </button>
+        </header>
+        <button class="mainButton button" id="lessonPlanButton" onclick="lessonDirect()" onmousedown="buttonHighlight(id, mainButtonHighlightColor)" onmouseup="buttonReset(id, mainButtonColor)" onmouseleave="buttonReset(id, mainButtonColor)">
+            <h1 class="main-text text">Plan Lekcji</h1>
+         </button>
+        <button class="mainButton button" id="teacherPlanButton" onmousedown="buttonHighlight(id, mainButtonHighlightColor)" onmouseup="buttonReset(id, mainButtonColor)" onmouseleave="buttonReset(id, mainButtonColor)">
+            <h1 class="main-text text">Plan Nauczycieli</h1>
+        </button>
+    </body>
+</html>
